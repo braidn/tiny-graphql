@@ -11,3 +11,14 @@ Some use cases (maybe):
 - Quick Lambda functions
 - Intermediary service/api layer between two rest APIs
 - Building something _FAST_
+
+## Building the App
+```js
+npx rollup --format=cjs --file=bundle.js -- index.mjs
+```
+
+## Building the Docker Image
+
+```shell
+docker build -t someName .
+```
